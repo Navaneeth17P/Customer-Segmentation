@@ -34,19 +34,19 @@ Data Cleaning:
 
 1. Perform a preliminary data inspection and data cleaning.
 
-  a)	Check for missing data and formulate an apt strategy to treat them.
+    a)	Check for missing data and formulate an apt strategy to treat them.
 
-  b)	Remove duplicate data records.
+    b)	Remove duplicate data records.
 
-  c)	Perform descriptive analytics on the given data.
+    c)	Perform descriptive analytics on the given data.
 
 Data Transformation:
 
 2. Perform cohort analysis (a cohort is a group of subjects that share a defining characteristic). Observe how a cohort behaves across time and compare it to other cohorts.
 
-  a)	Create month cohorts and analyze active customers for each cohort.
+    a)	Create month cohorts and analyze active customers for each cohort.
 
-  b)	Analyze the retention rate of customers.
+    b)	Analyze the retention rate of customers.
 
 Data Modeling :
 
@@ -56,11 +56,11 @@ Data Modeling :
 
 3. Build RFM Segments. Give recency, frequency, and monetary scores individually by dividing them into quartiles.
 
-  a.	Combine three ratings to get a RFM segment (as strings).
+      a.	Combine three ratings to get a RFM segment (as strings).
 
-  b.	Get the RFM score by adding up the three ratings.
+      b.	Get the RFM score by adding up the three ratings.
 
-  c.	Analyze the RFM segments by summarizing them and comment on the findings.
+      c.	Analyze the RFM segments by summarizing them and comment on the findings.
 
 Note: Rate “recency" for customer who has been active more recently higher than the less recent customer, because each company wants its customers to be recent.
 
@@ -70,17 +70,24 @@ Data Modelling :
 
 1. Create clusters using k-means clustering algorithm.
 
-    a.	Prepare the data for the algorithm. If the data is asymmetrically distributed, manage the skewness with appropriate transformation. Standardize the         data.
-    b.	Decide the optimum number of clusters to be formed.
-    c.	Analyze these clusters and comment on the results.
+      a.	Prepare the data for the algorithm. If the data is asymmetrically distributed, manage the skewness with appropriate transformation. Standardize the data.
+      
+      b.	Decide the optimum number of clusters to be formed.
+      
+      c.	Analyze these clusters and comment on the results.
 
 Data Reporting:
 
 1. Create a dashboard in tableau by choosing appropriate chart types and metrics useful for the business. The dashboard must entail the following:
 
-  a.	Country-wise analysis to demonstrate average spend. Use a bar chart to show the monthly figures
-  b.	Bar graph of top 15 products which are mostly ordered by the users to show the number of products sold
-  c.	Bar graph to show the count of orders vs. hours throughout the day
-  d.	Plot the distribution of RFM values using histogram and frequency charts
-  e.	Plot error (cost) vs. number of clusters selected
-  f.	Visualize to compare the RFM values of the clusters using heatmap
+    a.	Country-wise analysis to demonstrate average spend. Use a bar chart to show the monthly figures
+ 
+    b.	Bar graph of top 15 products which are mostly ordered by the users to show the number of products sold
+  
+    c.	Bar graph to show the count of orders vs. hours throughout the day
+  
+    d.	Plot the distribution of RFM values using histogram and frequency charts
+  
+    e.	Plot error (cost) vs. number of clusters selected
+
+    f.	Visualize to compare the RFM values of the clusters using heatmap
